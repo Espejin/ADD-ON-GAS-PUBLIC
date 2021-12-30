@@ -125,6 +125,27 @@ Este apartado aún no se encuentra disponible, esto se debe a que el ADD-ON debe
 
 ## Carga del ADD-ON:
 
+Una vez pasada la etapa de instalación, deberemos ir al apartado "Complementos", "ADD-ON-SPSH", "Ejecutar Add-On". Tras dar clic en la función de ejecución, la vista de la hoja de cálculo se hará más pequeña y el ADD-ON se insertará en la sección derecha de la aplicación, según se observa:
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/Espejin/ADD-ON-GAS-PUBLIC/main/Imagenes_GHP/Ejecucion_1.PNG" align="center" height="70%" width="70%">
+</p>
+<p align="center">
+<b> Figura 7: </b> Comenzar carga del ADD-ON sobre SpreadSheets.
+</p>
+<br>
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/Espejin/ADD-ON-GAS-PUBLIC/main/Imagenes_GHP/Ejecucion_2.PNG" align="center" height="70%" width="90%">
+</p>
+<p align="center">
+<b> Figura 8: </b> ADD-ON Cargado correctamente sobre SpreadSheets.
+</p>
+<br>
+
+## Estructura del ADD-ON:
+La estructura del ADD-ON se puede observar a continuación:
+
 
 
 ## Bibliografía:
