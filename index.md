@@ -136,7 +136,7 @@ Una vez pasada la etapa de instalación, deberemos ir al apartado "Complementos"
 <br>
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/Espejin/ADD-ON-GAS-PUBLIC/main/Imagenes_GHP/Ejecucion_2.PNG" align="center" height="70%" width="90%">
+<img src="https://raw.githubusercontent.com/Espejin/ADD-ON-GAS-PUBLIC/main/Imagenes_GHP/Ejecucion_2.PNG" align="center" height="90%" width="90%">
 </p>
 <p align="center">
 <b> Figura 8: </b> ADD-ON Cargado correctamente sobre SpreadSheets.
@@ -146,7 +146,25 @@ Una vez pasada la etapa de instalación, deberemos ir al apartado "Complementos"
 ## Estructura del ADD-ON:
 La estructura del ADD-ON se puede observar a continuación:
 
+<p align="center">
+<img src="https://raw.githubusercontent.com/Espejin/ADD-ON-GAS-PUBLIC/main/Imagenes_GHP/Estructura_add_on.PNG" align="center" height="46%" width="46%">
+</p>
+<p align="center">
+<b> Figura 9: </b> Estructura del ADD-ON.
+</p>
+<br>
 
+- _**Sección 1 (Parámetros rellenables):**_ En esta sección se deben insertar dos valores puntuales, rellenando mediante teclado. El tiempo debe ser llenado en segundos y en la el campo de inserción contiguo se debe insertar el rango de celdas en notación A1. El campo de rango es opcional, sin embargo si este se mantiene vacío se debe seleccionar las celdas con datos utilizando el mouse o con el teclado mediante `SHIFT` + `FLECHAS`.
+
+>  La notación "A1" describe un método de descripción de celdas, constituido por "CeldaInicio:CeldaFin". Ejemplo: "A12:D25".
+
+- _**Sección 2 (Parámetros seleccionables):**_ En esta sección se debe seleccionar entre valores puntuales para configurar el gráfico a ser escuchado. Los campos que se pueden modificar son: tipo de gráfico, tipo de timbre, y manejo de valores faltantes.
+
+-  _**Sección 3 (Compartir Documento):**_ esta sección es opcional y permite compartir el archivo con otra persona, solicitando el correo de la misma, la persona con quién se compartirá el archivo también tendrá acceso al ADD-ON.
+
+-  _**Sección 4 (Botones de acción):**_ en esta opción se encuentran las opciones finales de acción, tras rellenar todos los campos, al dar click en "Sonificación" se genera un gráfico en la hoja de cálculo, a la vez comienza el sonido equivalente al gráfico mencionado, todo esto identificado por una retroalimentación hablada (Text to Speach). El Botón de "Detener" detiene el sonido en curso y el botón "?" da acceso a la documentación del ADD-ON, correspondiente al presente documento.
+
+ &nbsp;&nbsp; Espaciado
 
 ## Bibliografía:
 
@@ -181,3 +199,4 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
