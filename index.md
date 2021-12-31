@@ -1,4 +1,4 @@
-# Documentación ADD-ON de interpretación gráfica:
+//# Documentación ADD-ON de interpretación gráfica:
 
 ## Introducción:
 
@@ -72,51 +72,62 @@ Para utilizar el ADD-ON, actualmente se tienen dos posibles métodos de instalac
 Si una persona con acceso de "Editor" o "Propietario" al archivo lo comparte con usted, tendrá acceso al archivo en sí y a las funcionalidades del ADD-ON. Existen dos métodos para compartir un archivo en Google Spreadsheets:
 
 - Compartir mediante interfaz de Google Spreadsheets, la persona dueña o con acceso al archivo debe seguir los siguientes pasos:
+  1. Buscar el botón compartir ubicado en la esquina superior derecha y dar clic en la misma.
 
-> 1. Buscar el botón compartir ubicado en la esquina superior derecha y dar clic en la misma.
+  <p align="center">
+  <img src="https://raw.githubusercontent.com/Espejin/ADD-ON-GAS-PUBLIC/main/Imagenes_GHP/Paso1_comparte_embebido.png" align="center" height="40%" width="40%" >
+  </p>
+  <p align="center">
+  <b> Figura 3: </b> Compartición embebida Spreadsheets (Paso 1).
+  </p>
+  <br>
+  
+  2. Colocar el correo de la persona que desea acceso al archivo con el ADD-ON o copiar el enlace y enviarselo.
+
+  <p align="center">
+  <img src="https://raw.githubusercontent.com/Espejin/ADD-ON-GAS-PUBLIC/main/Imagenes_GHP/Paso2_comparte_embebido.PNG" align="center" height="40%" width="40%" >
+  </p>
+  <p align="center">
+  <b> Figura 4: </b> Compartición embebida Spreadsheets (Paso 2).
+  </p>
+  <br>
+
+- Compartir mediante funcionalidad embebida del ADD-ON:
+
+  1. Ubicarse sobre el panel de "Compartir documento", rellenar el campo de correo y dar clic al botón de compartir.
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/Espejin/ADD-ON-GAS-PUBLIC/main/Imagenes_GHP/Paso1_comparte_embebido.png" align="center" height="40%" width="40%" >
+<img src="https://raw.githubusercontent.com/Espejin/ADD-ON-GAS-PUBLIC/main/Imagenes_GHP/Compartir_Archivo_embebido.PNG" align="center" height="40%" width="40%" >
 </p>
 <p align="center">
-<b> Figura 3: </b> Compartición embebida Spreadsheets (Paso 1).
+<b> Figura 5: </b> Compartición mediante interfaz del ADD-ON.
 </p>
 <br>
 
-> 2. Colocar el correo de la persona que desea acceso al archivo con el ADD-ON o copiar el enlace y enviarselo.
-
-<p align="center">
-<img src="https://raw.githubusercontent.com/Espejin/ADD-ON-GAS-PUBLIC/main/Imagenes_GHP/Paso2_comparte_embebido.PNG" align="center" height="40%" width="40%" >
-</p>
-<p align="center">
-<b> Figura 4: </b> Compartición embebida Spreadsheets (Paso 2).
-</p>
-<br>
 
 ### Colocar los archivos de configuración en el apartado App Scripts:
 
-> 1. Seleccionar el apartado "App Scripts" en la pestaña "Extensiones".
+1. Seleccionar el apartado "App Scripts" en la pestaña "Extensiones".
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/Espejin/ADD-ON-GAS-PUBLIC/main/Imagenes_GHP/Paso1_copia_codigo.PNG" align="center" height="70%" width="70%">
 </p>
 <p align="center">
-<b> Figura 5: </b> Agregar archivos con lógica del ADD-ON (Paso 1).
+<b> Figura 6: </b> Agregar archivos con lógica del ADD-ON (Paso 1).
 </p>
 <br>
 
-> 2. Agregar 3 archivos HTML y colocar el contenido de los archivos originales. Copiar el contenido del archivo .gs:
+2. Agregar 3 archivos HTML y colocar el contenido de los archivos originales. Copiar el contenido del archivo .gs:
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/Espejin/ADD-ON-GAS-PUBLIC/main/Imagenes_GHP/Paso2_copia_codigo.PNG" align="center" height="70%" width="70%">
 </p>
 <p align="center">
-<b> Figura 6: </b> Agregar archivos con lógica del ADD-ON (Paso 2).
+<b> Figura 7: </b> Agregar archivos con lógica del ADD-ON (Paso 2).
 </p>
 <br>
 
-> **Nota:** se deben copiar 4 archivos; `add_on_logico.gs`, `barra_add_on.html`, `cliente_logico.js.html` y `cliente_interfaz.css.html`. Adicionalmente los nombres deben ser igual a los mencionados.
-
+  **Nota:** se deben copiar 4 archivos; `add_on_logico.gs`, `barra_add_on.html`, `cliente_logico.js.html` y `cliente_interfaz.css.html`. Adicionalmente los nombres deben ser igual a los mencionados.
 
 
 ### Descargar complemento:
@@ -131,7 +142,7 @@ Una vez pasada la etapa de instalación, deberemos ir al apartado "Complementos"
 <img src="https://raw.githubusercontent.com/Espejin/ADD-ON-GAS-PUBLIC/main/Imagenes_GHP/Ejecucion_1.PNG" align="center" height="70%" width="70%">
 </p>
 <p align="center">
-<b> Figura 7: </b> Comenzar carga del ADD-ON sobre SpreadSheets.
+<b> Figura 8: </b> Comenzar carga del ADD-ON sobre SpreadSheets.
 </p>
 <br>
 
@@ -139,7 +150,7 @@ Una vez pasada la etapa de instalación, deberemos ir al apartado "Complementos"
 <img src="https://raw.githubusercontent.com/Espejin/ADD-ON-GAS-PUBLIC/main/Imagenes_GHP/Ejecucion_2.PNG" align="center" height="90%" width="90%">
 </p>
 <p align="center">
-<b> Figura 8: </b> ADD-ON Cargado correctamente sobre SpreadSheets.
+<b> Figura 9: </b> ADD-ON Cargado correctamente sobre SpreadSheets.
 </p>
 <br>
 
@@ -150,13 +161,13 @@ La estructura del ADD-ON se puede observar a continuación:
 <img src="https://raw.githubusercontent.com/Espejin/ADD-ON-GAS-PUBLIC/main/Imagenes_GHP/Estructura_add_on.PNG" align="center" height="46%" width="46%">
 </p>
 <p align="center">
-<b> Figura 9: </b> Estructura del ADD-ON.
+<b> Figura 10: </b> Estructura del ADD-ON.
 </p>
 <br>
 
 - _**Sección 1 (Parámetros rellenables):**_ En esta sección se deben insertar dos valores puntuales, rellenando mediante teclado. El tiempo debe ser llenado en segundos y en la el campo de inserción contiguo se debe insertar el rango de celdas en notación A1. El campo de rango es opcional, sin embargo si este se mantiene vacío se debe seleccionar las celdas con datos utilizando el mouse o con el teclado mediante `SHIFT` + `FLECHAS`.
 
->  La notación "A1" describe un método de descripción de celdas, constituido por "CeldaInicio:CeldaFin". Ejemplo: "A12:D25".
+  > La notación "A1" describe un método de descripción de celdas, constituido por "CeldaInicio:CeldaFin". Ejemplo: "A12:D25".
 
 - _**Sección 2 (Parámetros seleccionables):**_ En esta sección se debe seleccionar entre valores puntuales para configurar el gráfico a ser escuchado. Los campos que se pueden modificar son: tipo de gráfico, tipo de timbre, y manejo de valores faltantes.
 
@@ -164,39 +175,79 @@ La estructura del ADD-ON se puede observar a continuación:
 
 -  _**Sección 4 (Botones de acción):**_ en esta opción se encuentran las opciones finales de acción, tras rellenar todos los campos, al dar click en "Sonificación" se genera un gráfico en la hoja de cálculo, a la vez comienza el sonido equivalente al gráfico mencionado, todo esto identificado por una retroalimentación hablada (Text to Speach). El Botón de "Detener" detiene el sonido en curso y el botón "?" da acceso a la documentación del ADD-ON, correspondiente al presente documento.
 
- &nbsp;&nbsp; Espaciado
+## Uso del ADD-ON:
+
+### Tipos de Parámetros:
+
+El ADD-ON requiere de la selección de varios parámetros de estos, solo dos son obligatorios, mismos que corresponden a:
+
+- Tiempo de sonificación.
+- Rango de celdas (llenado o seleccionado).
+
+Los otros parámetros necesarios siempre estarán seleccionados con un valor por defecto y deberán ser cambiados al valor que requierá el usuario. Los parámetros por defecto son:
+
+- Tipo de Gráfico → por defecto seleccionado gráfico de línea.
+- Tipo de Timbre → por defecto seleccionado timbre con una señal.
+- Manejo de valores faltantes → por defecto seleccionado ignorar valores faltantes (Suavizar).
+
+Por otra parte, existe únicamente un campo opcional, este deberá ser llenado solo en caso de requerir la acción de compartir el archivo actual:
+
+- Correo → no tiene valor por defecto, debe insertarse un correo válido, caso contrario se solicitará ingresar nuevamente.
+
+### Flujo regular (Mediante comandos):
+
+El presente ADD-ON esta enfocado para usuarios con discapacidad visual. De modo que la ejecución regular se debe ejecutar mediante comandos. Los comandos necesarios para la ejecución se detallan a continuación:
+
+- `SHIFT` + `G` → Comenzar el proceso de sonificación o volver a comenzar proceso de ejecución, una vez terminado un proceso.
+- `SHIFT` + `F` → Cambiar entre opciones de campos seleccionables.
+- `SHIFT` + `J` → Comenzar proceso de sonificación.
+- `ALT` + `P` → Insertar valores en algún campo rellenable (Tiempo - Rango - Correo).
+- `ENTER` → Confirmar selección de configuración.
+
+El proceso de ejecución se realizará de manera ordenada de la forma descrita:
+
+1. Al cargar el ADD-ON, sonará una introducción misma que solicicitará al usuario moverse a la derecha hasta escuchar la palabra "DENTRO", esto se debe a que los comandos solo funcionan si el cursos se encuentra sobre el ADD-ON.
+2. Una vez dentro del ADD-ON se presionarán las teclas `SHIFT` + `G`, de modo que comenzará el proceso de inserción de parametros.
+3. El usuario deberá teclear el comando `ALT` + `P`, tras lo cual se deberá ingresar el rango de celdas.
+  - El rango de celdas puede insertarse escribiendolo en notación A1, este siempre será la opción con mayor jerarquía. Sin embargo, se pueden seleccionar las celdas con el mouse o mediante el teclado mediante `SHIFT` + `FLECHAS`. Para confirmar se debe teclear `ENTER`. Si el valor de rango es correcto las celdas se seleccionarán automáticamente, tal cual se hubieran seleccionado mediante mouse.
+
+  <p align="center">
+  <img src="https://raw.githubusercontent.com/Espejin/ADD-ON-GAS-PUBLIC/main/Imagenes_GHP/Rango_seleccionado.PNG" align="center" height="70%" width="70%">
+  </p>
+  <p align="center">
+  <b> Figura 11: </b> Rango seleccionado correctamente.
+  </p>
+  <br>
+  
+  En caso de insertar un rango incorrecto, el ADD-ON dará una retroalimentación al usuario pidiendo que ingrese nuevamente el rango de manera correcta.
+
+4. Tras insertar el rango, se deberá presionar `ALT` + `P` para insertar el tiempo de sonificación, este se deberá ingresar en segundos. En caso de ser un valor decimal, el delimitador de unidades será el `.`. En caso de insertar un valor incorrecto, no número o letras, se solicitará al usuario inserte correctamente el mismo. Se deberá presionar `ENTER` para confirmar.
+5. Posteriormente, se solicitará insertar el tipo de gráfico, se deberá presionar el comando `SHIFT` + `F` para seleccionar el tipo de gráfico, se dará una retroalimentación auditiva del tipo de gráfico seleccionado, para confirmar se deberá insertar `ENTER`.
+6. El valor de selección cambiará al tipo de timbre, se deberá presionar el comando `SHIFT` + `F` para seleccionar el tipo de timbre, se dará una retroalimentación auditiva del tipo de timbre seleccionado, para confirmar se deberá insertar `ENTER`.
+7. El valor de selección cambiará al tipo de manejo de valores faltantes, se deberá presionar el comando `SHIFT` + `F` para seleccionar el tipo de manejo de faltantes, se dará una retroalimentación auditiva del tipo de manejo de valores faltantes, para confirmar se deberá insertar `ENTER`.
+8. Finalmente se deberá presionar el comando `SHIFT` + `J` y se generará la sonificación del gráfico, adicionalmente se insertará un gráfico del tipo seleccionado en la hoja de cálculo.
+9. Al final de la sonificación se solicitará ingresar el comando `SHIFT` + `G` para insertar nueva información o cambiar parámetros. El flujo de ejecución será el mismo anteriormente descrito.
+
+### Flujo complementario (Mediante interfaz gráfica):
+
+Se pueden llenar los parámetros utilizando el mouse de manera directa, en este caso la selección de parámetros será indistinta y se priorizará la selección del rango de celdas mediante mouse (Si se ingresa mediante rango en el campo puntual, también será válido). Tras colocar los parámetros necesarios, se deberá dar clic en el botón de sonificar y se generará la sonificación respectiva.
+
+
+## Sobre el desarrollador:
+
+<p align="left">
+<img src="https://raw.githubusercontent.com/Espejin/ADD-ON-GAS-PUBLIC/main/Imagenes_GHP/autor1.png" align="left" height="17%" width="17%">
+
+BRYAN SEBASTIAN TORRES CUENCA, nacido en Quito, Ecuador en 1998. Apasionado de la tecnología termina sus estudios de bachillerato en el prestigioso colegio Sebastián de Benalcázar.
+
+Comienza sus estudios universitarios a finales de 2016, conviritendose en miembro de la Escuela Politécnica Nacional del Ecuador, puntualmente en la facultad de Ingeniería Eléctrica y Electrónica en la carrera de Ingeniería en Tecnologías de la Información. 
+
+Desde sus inicios, muestra grandes capacidades en el uso de lenguajes de programación del tipo de Python, C\#, javascript, PHP y demás. Se ve inmerso en varios proyectos de diversas índoles que le permiten acercarse más a las necesidades tecnologías y sociales de su nación.
+</p>
+<br clear="left"/>
 
 ## Bibliografía:
 
 [1] 	Mozilla for Developers, «AudioContext,» Mozilla, 14 Septiembre 2021. [En línea]. Available: https://developer.mozilla.org/en-US/docs/Web/API/AudioContext. [Último acceso: 29 Diciembre 2021].
 
 [2] 	Mozilla for Developers, «SpeechSynthesis,» Mozilla, 16 Diciembre 2021. [En línea]. Available: https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis. [Último acceso: 29 Diciembre 2021].
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Espejin/ADD-ON-GAS-PUBLIC/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
-
