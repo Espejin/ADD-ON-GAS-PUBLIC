@@ -247,7 +247,7 @@ Se pueden llenar los parámetros utilizando el mouse de manera directa, en este 
 ## Sobre el desarrollador:
 
 <p align="left">
-<img src="https://raw.githubusercontent.com/Espejin/ADD-ON-GAS-PUBLIC/main/Imagenes_GHP/autor1.png" align="left" height="25%" width="25%" display:block>
+<img src="https://raw.githubusercontent.com/Espejin/ADD-ON-GAS-PUBLIC/main/Imagenes_GHP/autor1.png" align="left" height="25%" width="25%" display="block" >
 
 BRYAN SEBASTIAN TORRES CUENCA, nacido en Quito, Ecuador en 1998. Apasionado de la tecnología termina sus estudios de bachillerato en el prestigioso colegio Sebastián de Benalcázar. <br><br>
 
