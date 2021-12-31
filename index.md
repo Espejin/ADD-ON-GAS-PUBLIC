@@ -3,6 +3,7 @@
 El presente website tiene como objetivo explicar el funcionamiento y los pormenores del desarrollo del ADD-ON de interpretación gráfica. El código utilizado para obtener su funcionamiento, así como los elementos de multimedia utilizados serán adjuntados en el repositorio de GitHub correspondiente (accesible dando clic en "View on GitHub").
 
 Este proyecto fue desarrollado como Trabajo de Integración Curricular previo a la obtención del título de Ingeniero en Tecnologías de la Información, por parte de la Escuela Politécnica Nacional del Ecuador, facultad de Ingeniería Eléctrica y Electrónica.
+
 </br>
 
 ## Detalles Técnicos:
