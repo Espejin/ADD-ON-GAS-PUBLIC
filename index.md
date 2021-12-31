@@ -3,6 +3,7 @@
 El presente website tiene como objetivo explicar el funcionamiento y los pormenores del desarrollo del ADD-ON de interpretación gráfica. El código utilizado para obtener su funcionamiento, así como los elementos de multimedia utilizados serán adjuntados en el repositorio de GitHub correspondiente (accesible dando clic en "View on GitHub").
 
 Este proyecto fue desarrollado como Trabajo de Integración Curricular previo a la obtención del título de Ingeniero en Tecnologías de la Información, por parte de la Escuela Politécnica Nacional del Ecuador, facultad de Ingeniería Eléctrica y Electrónica.
+</br>
 
 ## Detalles Técnicos:
 
@@ -60,6 +61,7 @@ El ADD-ON fue desarrollado buscando la máxima compatibilidad con la gran mayor�
 <br>
 
 > **Nota:** se denota que los ADD-ONs sobre todas las aplicaciones de G-Suite aún NO estan disponibles sobre navegadores de dispositivos móviles o presentan problemas con los mismos, por cuánto su uso se asegura específicamente para desktop.
+</br>
 
 ## Instalación del ADD-ON:
 
@@ -130,7 +132,9 @@ Si una persona con acceso de "Editor" o "Propietario" al archivo lo comparte con
 
 ### Descargar complemento:
 
-Este apartado aún no se encuentra disponible, esto se debe a que el ADD-ON debe entrar por un proceso de revisión prevía a su subida. Una vez el proyecto sea revisado el ADD-ON será subido y su código compartido públicamente
+Este apartado aún no se encuentra disponible, esto se debe a que el ADD-ON debe entrar por un proceso de revisión prevía a su subida. Una vez el proyecto sea revisado el ADD-ON será subido y su código compartido públicamente.
+
+</br>
 
 ## Carga del ADD-ON:
 
@@ -230,6 +234,7 @@ El proceso de ejecución se realizará de manera ordenada de la forma descrita:
 
 Se pueden llenar los parámetros utilizando el mouse de manera directa, en este caso la selección de parámetros será indistinta y se priorizará la selección del rango de celdas mediante mouse (Si se ingresa mediante rango en el campo puntual, también será válido). Tras colocar los parámetros necesarios, se deberá dar clic en el botón de sonificar y se generará la sonificación respectiva.
 
+</br>
 
 ## Sobre el desarrollador:
 
