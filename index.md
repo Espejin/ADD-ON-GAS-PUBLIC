@@ -4,7 +4,7 @@ El presente website tiene como objetivo explicar el funcionamiento y los pormeno
 
 Este proyecto fue desarrollado como Trabajo de Integración Curricular previo a la obtención del título de Ingeniero en Tecnologías de la Información, por parte de la Escuela Politécnica Nacional del Ecuador, facultad de Ingeniería Eléctrica y Electrónica.
 
-</br>
+<br>
 
 ## Detalles Técnicos:
 
@@ -62,7 +62,7 @@ El ADD-ON fue desarrollado buscando la máxima compatibilidad con la gran mayor�
 <br>
 
 > **Nota:** se denota que los ADD-ONs sobre todas las aplicaciones de G-Suite aún NO estan disponibles sobre navegadores de dispositivos móviles o presentan problemas con los mismos, por cuánto su uso se asegura específicamente para desktop.
-</br>
+<br>
 
 ## Instalación del ADD-ON:
 
@@ -135,7 +135,7 @@ Si una persona con acceso de "Editor" o "Propietario" al archivo lo comparte con
 
 Este apartado aún no se encuentra disponible, esto se debe a que el ADD-ON debe entrar por un proceso de revisión prevía a su subida. Una vez el proyecto sea revisado el ADD-ON será subido y su código compartido públicamente.
 
-</br>
+<br>
 
 ## Carga del ADD-ON:
 
@@ -177,6 +177,8 @@ La estructura del ADD-ON se puede observar a continuación:
 -  _**Sección 3 (Compartir Documento):**_ esta sección es opcional y permite compartir el archivo con otra persona, solicitando el correo de la misma, la persona con quién se compartirá el archivo también tendrá acceso al ADD-ON.
 
 -  _**Sección 4 (Botones de acción):**_ en esta opción se encuentran las opciones finales de acción, tras rellenar todos los campos, al dar click en "Sonificación" se genera un gráfico en la hoja de cálculo, a la vez comienza el sonido equivalente al gráfico mencionado, todo esto identificado por una retroalimentación hablada (Text to Speach). El Botón de "Detener" detiene el sonido en curso y el botón "?" da acceso a la documentación del ADD-ON, correspondiente al presente documento.
+
+<br>
 
 ## Uso del ADD-ON:
 
@@ -235,16 +237,16 @@ El proceso de ejecución se realizará de manera ordenada de la forma descrita:
 
 Se pueden llenar los parámetros utilizando el mouse de manera directa, en este caso la selección de parámetros será indistinta y se priorizará la selección del rango de celdas mediante mouse (Si se ingresa mediante rango en el campo puntual, también será válido). Tras colocar los parámetros necesarios, se deberá dar clic en el botón de sonificar y se generará la sonificación respectiva.
 
-</br>
+<br>
 
 ## Sobre el desarrollador:
 
 <p align="left">
-<img src="https://raw.githubusercontent.com/Espejin/ADD-ON-GAS-PUBLIC/main/Imagenes_GHP/autor1.png" align="left" height="20%" width="20%" margin-left = "5px">
+<img src="https://raw.githubusercontent.com/Espejin/ADD-ON-GAS-PUBLIC/main/Imagenes_GHP/autor1.png" align="left" height="25%" width="25%" margin-right = "5px" padding-right = "5px">
 
-BRYAN SEBASTIAN TORRES CUENCA, nacido en Quito, Ecuador en 1998. Apasionado de la tecnología termina sus estudios de bachillerato en el prestigioso colegio Sebastián de Benalcázar. <br>
+BRYAN SEBASTIAN TORRES CUENCA, nacido en Quito, Ecuador en 1998. Apasionado de la tecnología termina sus estudios de bachillerato en el prestigioso colegio Sebastián de Benalcázar. <br><br>
 
-Comienza sus estudios universitarios a finales de 2016, conviritendose en miembro de la Escuela Politécnica Nacional del Ecuador, puntualmente en la facultad de Ingeniería Eléctrica y Electrónica en la carrera de Ingeniería en Tecnologías de la Información. <br>
+Comienza sus estudios universitarios a finales de 2016, conviritendose en miembro de la Escuela Politécnica Nacional del Ecuador, puntualmente en la facultad de Ingeniería Eléctrica y Electrónica en la carrera de Ingeniería en Tecnologías de la Información. <br><br>
 
 Desde sus inicios, muestra grandes capacidades en el uso de lenguajes de programación del tipo de Python, C\#, javascript, PHP y demás. Se ve inmerso en varios proyectos de diversas índoles que le permiten acercarse más a las necesidades tecnologías y sociales de su nación.
 </p>
