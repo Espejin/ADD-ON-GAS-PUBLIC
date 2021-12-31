@@ -1,3 +1,5 @@
+<p style="display:none;"></p>
+
 ## Introducción:
 
 El presente website tiene como objetivo explicar el funcionamiento y los pormenores del desarrollo del ADD-ON de interpretación gráfica. El código utilizado para obtener su funcionamiento, así como los elementos de multimedia utilizados serán adjuntados en el repositorio de GitHub correspondiente (accesible dando clic en "View on GitHub").
